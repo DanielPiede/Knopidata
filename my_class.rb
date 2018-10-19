@@ -1,2 +1,3 @@
 class MyClass
+
 end
