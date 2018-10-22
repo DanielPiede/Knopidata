@@ -1,2 +1,0 @@
-# Knopidata
-Gemeinsames Repository
