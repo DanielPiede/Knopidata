@@ -18,5 +18,5 @@ class MyClass
  end
 end
 
-MyClass.new.geheimnis # => "very secret"
+puts MyClass.new.geheimnis # => "very secret"
 
