@@ -1,8 +1,7 @@
 module Enumerable
   def gruppiere
     my_hash = Hash.new{|hsh,key| hsh[key] = [] }
-
-     each  {|e|  yield e}.each {|e| my_hash[yield(e)].push e}
+     each {|e| my_hash[yield(e)].push e}
     puts my_hash
       return my_hash
     end
